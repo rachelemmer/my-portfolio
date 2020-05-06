@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+body {
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar {
+  background-color: #BDC3C7;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.link {
+  text-decoration: none;
   color: white;
+  padding: 7px;
+  font-family: 'Montserrat', sans-serif;;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-title {
+  text-align: center;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: grey
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-form {
+  padding: 20px
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: grey;
+  border-color: grey;
+}
+
+.project-card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.projects-title {
+  text-align: center;
+  padding: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: grey
+}
+
+.project-card {
+  margin: 10px;
+}
+
+.about-title {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: grey
+}
+
+.about-photo {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-paragraph {
+  padding-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  color: darkslategrey
 }
