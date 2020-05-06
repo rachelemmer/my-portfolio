@@ -2,6 +2,25 @@ body {
   background-color: white;
 }
 
+.avatar {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.home-page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.home-page-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: darkslategrey;
+  margin-top: 200px;
+}
+
 .nav-bar {
   background-color: #BDC3C7;
   padding: 10px;
@@ -14,24 +33,35 @@ body {
   text-decoration: none;
   color: white;
   padding: 7px;
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .contact-title {
   text-align: center;
   padding: 15px;
   font-family: 'Montserrat', sans-serif;
-  color: grey
+  color: darkslategrey;
 }
 
 .contact-form {
-  padding: 20px
+  margin: 5px 300px 0px;
+}
+
+.d-inline-success-msg {
+  font-family: 'Montserrat', sans-serif;
+  color: darkslategrey;
+}
+
+.d-inline-err-msg {
+  font-family: 'Montserrat', sans-serif;
+  color: darkslategrey;
 }
 
 .btn-primary {
   color: #fff;
-  background-color: grey;
-  border-color: grey;
+  background-color: darkslategrey;
+  border-color: darkslategrey;
 }
 
 .project-card-container {
@@ -43,7 +73,7 @@ body {
   text-align: center;
   padding: 30px;
   font-family: 'Montserrat', sans-serif;
-  color: grey
+  color: darkslategrey;
 }
 
 .project-card {
@@ -54,7 +84,7 @@ body {
   text-align: center;
   padding: 20px;
   font-family: 'Montserrat', sans-serif;
-  color: grey
+  color: darkslategrey;
 }
 
 .about-photo {
@@ -69,6 +99,24 @@ body {
 
 .about-paragraph {
   padding-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  color: darkslategrey
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #BDC3C7;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.form-label {
   font-family: 'Montserrat', sans-serif;
   color: darkslategrey
 }
