@@ -1,10 +1,15 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
+
 
 export default function Home() {
     return (
         <div className="home-page-container">
-          <img className="avatar" src="https://i.imgur.com/ksgJn8I.png" alt="Rachel Avatar"/>
-          <h1 className="home-page-title">Rachel Emmer // Software Engineer</h1>
+          <div>
+          <Fade bottom>
+            <h1 className="home-page-title">Hi! I'm Rachel.<br></br> I'm a Software Engineer<br></br> based in Denver.</h1>
+          </Fade>
+          </div>
         </div>
     )
 }
