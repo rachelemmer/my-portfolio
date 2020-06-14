@@ -2,59 +2,127 @@ body {
   background-color: white;
 }
 
+/* home page  */
+
+.home-page-container {
+  background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+}
+
+
+.home-page-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  color: darkslategrey;
+  margin-top: 170px;
+  margin-left: 100px;
+}
+
+/* navigation  */
+
 .nav-bar {
-  background-color: #BDC3C7;
+  background-color: rgb(189, 195, 199);
   padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  /* opacity: 0.5;
+  filter: alpha(opacity=50); */
 }
 
 .link {
   text-decoration: none;
   color: white;
   padding: 7px;
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: darkslategrey;
+  text-decoration: none;
+}
+
+/* contact page */
+
+.contact-page-container {
+  height: 100vh;  
 }
 
 .contact-title {
   text-align: center;
   padding: 15px;
   font-family: 'Montserrat', sans-serif;
-  color: grey
+  color: darkslategrey;
 }
 
-.contact-form {
-  padding: 20px
+/* .contact-form {
+} */
+
+.form-label {
+  font-family: 'Montserrat', sans-serif;
+  color: darkslategrey
+}
+
+.d-inline-success-msg {
+  font-family: 'Montserrat', sans-serif;
+  color: darkslategrey;
+}
+
+.d-inline-err-msg {
+  font-family: 'Montserrat', sans-serif;
+  color: darkslategrey;
 }
 
 .btn-primary {
   color: #fff;
-  background-color: grey;
-  border-color: grey;
+  background-color: darkslategrey;
+  border-color: darkslategrey;
 }
+
+/* projects page  */
 
 .project-card-container {
   display: flex;
   flex-direction: row;
+  justify-content:center;
 }
 
 .projects-title {
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   font-family: 'Montserrat', sans-serif;
-  color: grey
+  color: darkslategrey;
 }
 
 .project-card {
-  margin: 10px;
+  margin: 0px 10px 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: darkslategrey;
+  box-shadow: 1px 1px 1px #888888;
 }
+
+.project-photo {
+  height: 170px;
+}
+
+.github-icon {
+  height: 30px;
+  width: 30px;
+}
+
+/* about page */
 
 .about-title {
   text-align: center;
   padding: 20px;
+  margin-top: 20px;
   font-family: 'Montserrat', sans-serif;
-  color: grey
+  color: darkslategrey;
 }
 
 .about-photo {
@@ -68,7 +136,23 @@ body {
 }
 
 .about-paragraph {
-  padding-top: 100px;
+  padding-top: 60px;
   font-family: 'Montserrat', sans-serif;
-  color: darkslategrey
+  color: darkslategrey;
+  font-size: 18px;
+}
+
+/* footer */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(189, 195, 199);
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: 800;
 }

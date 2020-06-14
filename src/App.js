@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Nav from './Nav';
-import Resume from './Resume';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
+import Nav from './Components/Nav';
+import Home from './Components/Home';
+import About from './Components/About';
+import Projects from './Components/Projects';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -16,6 +17,12 @@ export default class App extends Component {
         <Router>
           <Nav />
           <Switch>
+            <Route
+            exact path='/'
+            render={(props) => 
+              <Home/>
+            }
+            />
             <Route 
               path='/about'
               render={(props) =>
@@ -29,12 +36,6 @@ export default class App extends Component {
               }
             />
             <Route 
-              path='/resume'
-              render={(props) =>
-                <Resume/>
-              }
-            />
-            <Route 
               path='/contact'
               render={(props) =>
                 <Contact/>
@@ -42,6 +43,7 @@ export default class App extends Component {
             />
           </Switch>
         </Router> 
+        <Footer/>
       </div>
     );
   }
