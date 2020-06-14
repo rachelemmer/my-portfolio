@@ -4,7 +4,7 @@ import PDF from '../ResumeFolder/Resume.pdf'
 export default function About() {
     return (
         <div>
-            <h1 className="about-title">About Me</h1>
+            <h1 className="about-title">A little bit about myself.</h1>
             <div className="about-container">
                 <img className="about-photo" src="https://i.imgur.com/Im4DvPE.jpg" alt="Rachel and her dog Ollie hiking"/>
                 <p className="about-paragraph">I am a Software Engineer with full stack web development experience. 

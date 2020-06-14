@@ -4,7 +4,7 @@ import ProjectCards from "./ProjectCards"
 export default function Projects() {
     return (
         <div>
-            <h1 className="projects-title">Projects</h1>
+            <h1 className="projects-title">Check out my projects.</h1>
             <ProjectCards />
         </div>
     )

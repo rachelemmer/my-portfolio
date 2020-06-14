@@ -17,7 +17,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 80px;
   color: darkslategrey;
-  margin-top: 180px;
+  margin-top: 170px;
   margin-left: 100px;
 }
 
@@ -42,19 +42,26 @@ body {
   font-size: 20px;
 }
 
+.link:hover {
+  color: darkslategrey;
+  text-decoration: none;
+}
+
 /* contact page */
+
+.contact-page-container {
+  height: 100vh;  
+}
 
 .contact-title {
   text-align: center;
-  margin-top: 20px;
   padding: 15px;
   font-family: 'Montserrat', sans-serif;
   color: darkslategrey;
 }
 
-.contact-form {
-  margin: 40px 300px 0px;
-}
+/* .contact-form {
+} */
 
 .form-label {
   font-family: 'Montserrat', sans-serif;

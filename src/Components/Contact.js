@@ -55,7 +55,7 @@ export default class Contact extends Component {
 
     render() {
         return (
-        <div>
+        <div className="contact-page-container">
             <h1 className="contact-title">Let's be in touch.</h1>
             <Form className="contact-form" onSubmit={this.handleSubmit}>
                 <Form.Group>
