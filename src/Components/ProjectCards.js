@@ -5,6 +5,19 @@ export default function ProjectCards() {
     return (
         <div className="project-card-container">
             <Card className="project-card" style={{ width: '18rem' }}>
+                <Card.Img className="project-photo" variant="top" src="https://i.imgur.com/uYxDgYK.png" />
+                <Card.Body>
+                    <Card.Title>Hike</Card.Title>
+                    <Card.Text>
+                    Allows users to create and sign into an account, add a hike with a title, image, and description, and view all of their posts on a map with the corresponding longitude and latitude of that peak.
+                    </Card.Text>
+                    <Card.Link href="https://github.com/rachelemmer/hike-frontend" target="_blank">
+                        <img src={"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"} 
+                        alt="github-icon" className="github-icon"/>
+                    </Card.Link>
+                </Card.Body>
+            </Card>
+            <Card className="project-card" style={{ width: '18rem' }}>
                 <Card.Img className="project-photo" variant="top" src="https://i.imgur.com/6sRFvH8.png" />
                 <Card.Body>
                     <Card.Title>Book Finder</Card.Title>

@@ -9,7 +9,7 @@ export default function About() {
                 <img className="about-photo" src="https://i.imgur.com/Im4DvPE.jpg" alt="Rachel and her dog Ollie hiking"/>
                 <p className="about-paragraph">I am a Software Engineer with full stack web development experience. 
                 My passion for building, creating, learning and exploring led me to enroll in Flatiron School’s immersive Software Engineering program. 
-                My stack includes JS fundamentals (ES6+), Component Pattern, React.js, Redux, Ruby fundamentals, MVC pattern, Rails, SQL, ORMs, Active Record, Ruby on Rails, Node.js, Express.js, and Knex.js. 
+                My stack includes JS fundamentals (ES6+), HTML, CSS, Component Pattern, React.js, Redux, Ruby fundamentals, MVC pattern, Rails, SQL, ORMs, Active Record, Ruby on Rails, Node.js, Express.js, and Knex.js. 
                 <br></br><br></br>
                 Before my time at Flatiron School, I attended Colorado State University and received a Bachelors of Science in Psychology with a Spanish minor. 
                 I spent the next few years mentoring at risk youth and their families and I also worked at a brewery! In my free time, I love traveling, camping, reading, and hiking with my dog, Ollie:)
