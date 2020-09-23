@@ -55,17 +55,44 @@ body {
 
 .contact-title {
   text-align: center;
-  padding: 15px;
+  padding: 25px;
   font-family: 'Montserrat', sans-serif;
   color: darkslategrey;
 }
 
-/* .contact-form {
-} */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  width: 550px;
+  height: 450px;
+  border-radius: 10px;
+  border: 1px;
+  box-shadow: 0px 0px 8px;
+  padding: 20px 40px 60px;
+  justify-content: space-evenly;
+}
 
 .form-label {
   font-family: 'Montserrat', sans-serif;
   color: darkslategrey
+}
+
+.contact-form, input {
+  box-shadow: 0px 0px 2px;
+  border-radius: 10px;
+  border: 1px solid #999;
+  box-sizing: border-box;
+}
+
+.contact-form, textarea {
+  box-shadow: 0px 0px 2px;
+  border-radius: 10px;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  height: 500px;
 }
 
 .d-inline-success-msg {
@@ -78,10 +105,16 @@ body {
   color: darkslategrey;
 }
 
-.btn-primary {
+.form-button {
   color: #fff;
   background-color: darkslategrey;
   border-color: darkslategrey;
+  margin-top: 35px;
+  box-shadow: 0px 0px 2px;
+  border-radius: 10px;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  height: 150px;
 }
 
 /* projects page  */
@@ -145,7 +178,7 @@ body {
 /* footer */
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: rgb(189, 195, 199);
