@@ -56,13 +56,15 @@ export default class Contact extends Component {
         <div className="contact-page-container">
             <h1 className="contact-title">Let's be in touch.</h1>
             <form className="contact-form" onSubmit={this.handleSubmit}>
-                    <label className="form-label" for="full-name">Full Name</label>
+                    <label className="form-label" for="full-name">Full Name:</label>
                     <input id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange}/>
-                    <label className="form-label" for="email">Email</label>
+                    <br></br>
+                    <label className="form-label" for="email">Email:</label>
                     <input id="email" name="email" type="email" value={this.state.email} onChange={this.handleChange}/>
-                    <label className="form-label" for="message">Message</label>
-                    <input id="message" name="message" as="textarea" rows="3" value={this.state.message} onChange={this.handleChange}/>
-                <button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>Send</button>
+                    <br></br>
+                    <label className="form-label" for="message">Message:</label>
+                    <textarea id="message" name="message" value={this.state.message} onChange={this.handleChange}/>
+                <button className="form-button" type="submit" disabled={this.state.disabled}>Send</button>
             {this.state.emailSent === true && <p className="d-inline-success-msg">Email Sent</p>}
             {this.state.emailSent === false && <p className="d-inline-err-msg">Email Not Sent</p>}
             </form>
