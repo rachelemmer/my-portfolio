@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  overflow: hidden;
 }
 
 /* home page  */
@@ -50,7 +51,7 @@ body {
 /* contact page */
 
 .contact-page-container {
-  height: 100vh;  
+  height: 100vh;
 }
 
 .contact-title {
